@@ -1,0 +1,22 @@
+.footer-section {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+}
+
+
+.footer-section > .footer-image img{
+    width: 180px;
+    height: 100%;
+}
+
+.media-link {
+    font-size: 2em;
+    color: white;
+}
