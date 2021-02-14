@@ -1,0 +1,62 @@
+.footer-section {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.footer-section > .footer-image img { 
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+    /* opacity: 0.5 will also make an image less bright and might bring through background color */
+}
+
+
+.footer-section > .footer-contact-hours-wrapper span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer-section > .footer-contact-hours-wrapper > .hours {
+    font-size: 0.8em;
+    color: #cea135;
+    text-transform: uppercase;
+}
+
+.footer-section > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer-section > .social-media-links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer-section > .social-media-links-wrapper a {
+    font-size: 1.5em;
+    color:#cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-section > .social-media-links-wrapper a:hover {
+    color:#cea135;
+}
+
+.footer-section > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
