@@ -31,7 +31,7 @@
 
 .features-section {
     height: 400px;
-    background-image: url(...images/background/fries-multiply.jpg);
+     background-image: url(../images/background/fries-multiply-bg.jpg);
     background-color: #cea135;
     border-top: 10px solid white;
     color: #11122b;
@@ -47,11 +47,15 @@
     justify-content: space-between;
 }
 
-.column {
+.features-section > .columns-wrapper .column {
     padding: 20px;
     margin: 42px;
     text-align: center;
     border-bottom: 5px solid transparent;
     border-radius: 10px;
     transition: 1s;
+}
+
+.features-section > .columns-wrapper .column:hover  {
+    border-bottom: 5px solid #11122b;
 }
