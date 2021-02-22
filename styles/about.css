@@ -1,0 +1,6 @@
+/* skewed header */
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
