@@ -12,11 +12,10 @@
 
 .footer-section > .footer-image img { 
     width: 180px;
-    height: 100%;
+    height: 130px;
     filter: brightness(50%);
     /* opacity: 0.5 will also make an image less bright and might bring through background color */
 }
-
 
 .footer-section > .footer-contact-hours-wrapper span {
     margin-left: 10px;
