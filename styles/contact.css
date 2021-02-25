@@ -20,6 +20,10 @@
     font-size: 1.25em;;
 }
 
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+  color: #cea135;
+}
+
 .form > .form-group {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -67,14 +71,28 @@
     color: #11122b;
 }
 
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
 .btn {
     background-color: #cea135;
     color: #11122b;
     font-size: 1.25em;
     padding: 10px 25px;
     border: 1px solid #cea135;
+    border-radius: 2px;
     outline: none;
     transition: 0.3s;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.centered-button-wrapper {
+    display:flex;
+    justify-content: center;
 }
 
 .form label {
