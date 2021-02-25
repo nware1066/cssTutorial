@@ -38,6 +38,12 @@
     transition: all 0.3s;
 }
 
+.form input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #cea135;
+}
+
 .form textarea {
     margin-top: 20px;
     width: 100%;
@@ -51,6 +57,12 @@
     transition: all 0.3s;
 }
 
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border: 3px solid #cea135;
+}
+
 .btn {
     background-color: #cea135;
     color: #11122b;
@@ -59,4 +71,14 @@
     border: 1px solid #cea135;
     outline: none;
     transition: 0.3s;
+}
+
+.form label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color: #cea135;
 }
